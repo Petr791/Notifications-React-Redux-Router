@@ -167,8 +167,8 @@ function List({className, notifications, isNotificationsLoading, isNotifications
 
 	if(className === "sidebar-list") {
 		return (
-					<>
-					<nav>
+					<div className="sidebar-list-wrapper">
+							<nav>
 									<ul className={className}>
 											{sidebarItems && sidebarItems.map((item)=> (
 												<li key={uuidv4()}  className="sidebar-list__item">
@@ -177,7 +177,7 @@ function List({className, notifications, isNotificationsLoading, isNotifications
 											))}
 										</ul>
 							</nav> 
-					</>
+					</div>
 		  )
 	}
 

@@ -51,6 +51,7 @@
     line-height: 20px;
     font-weight: 900;
     color: #000000;
+    text-align: left;
 }
 
 .notifications-item__title.read {
