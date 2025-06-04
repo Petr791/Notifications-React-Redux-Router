@@ -1,0 +1,25 @@
+.notifications-page {
+    min-height: 90vh;
+}
+
+
+/*  */
+
+.inner-page-wrapper {}
+
+.inner-page__title {}
+
+.note-wrappre {}
+
+
+/* media queries */
+
+@media (hover: hover) {}
+
+@media (max-width: 961px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 590px) {}
+
+@media (max-width: 370px) {}

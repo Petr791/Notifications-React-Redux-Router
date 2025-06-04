@@ -1,0 +1,26 @@
+.page-subtitle {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+
+
+/* media queries */
+
+@media (hover: hover) {}
+
+@media (max-width: 961px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 567px) {
+    .page-subtitle {
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 370px) {}

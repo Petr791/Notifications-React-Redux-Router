@@ -1,0 +1,46 @@
+.btn--avito {
+    margin-bottom: 10px;
+    padding: 14px 18px 8px;
+    border: 2px solid #009dff;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    color: #000000;
+}
+
+.btn--avito:active {
+    background-color: #008aed;
+}
+
+.btn--avito:active .logo-text {
+    fill: #ffffff;
+}
+
+.btn--avito:active circle {
+    fill: #ffffff;
+}
+
+
+/* media queries */
+
+@media (hover: hover) {
+    .btn--avito:hover {
+        background-color: #008aed;
+    }
+    .btn--avito:hover .logo-text {
+        fill: #ffffff;
+    }
+    .btn--avito:hover circle {
+        fill: #ffffff;
+    }
+}
+
+@media (max-width: 961px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 590px) {}
+
+@media (max-width: 370px) {}
